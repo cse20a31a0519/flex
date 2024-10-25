@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+}
+.header{
+    display: flex;
+    border: 2px solid black;
+    padding-top: 20px;
+    gap: 50px;
+    background-color: rgb(202, 141, 83);
+    color:white;
+    height: 80px;
+    font-size: larger;
+    justify-content: center;
+}
+.bodycontent{
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    background:linear-gradient(rgb(206, 170, 131), rgb(223, 179, 118))
+}
+.div1{
+    margin: 20px;
+    width: 380px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer{
+    background-color:  rgb(202, 141, 83);
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+#p{
+    padding-top: 20px;
+    font-size: larger;
+}
